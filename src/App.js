@@ -14,11 +14,11 @@ import Button from './components/button';
 function App() {
     return ( <
         div className = "App" >
-        <
-        form >
+
         <
         Header / >
-
+        <
+        form >
 
         <
         Titulo / >
