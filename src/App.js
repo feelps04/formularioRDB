@@ -12,24 +12,38 @@ import Title5 from './components/title5'; // Importe o componente Title5
 import Button from './components/button';
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-     
-      <form> 
-      <Titulo />
-          <RowContainer1 />
-          <H2 />
-          <RowContainer2 />
-          <Title2 />
-          <Title3 />
-          <Title4 />
-          <Title5 />
-          <Button/>
-      </form>
-    
-    </div>
-  );
+    return ( <
+        div className = "App" >
+        <
+        form >
+        <
+        Header / >
+
+
+        <
+        Titulo / >
+        <
+        RowContainer1 / >
+        <
+        H2 / >
+        <
+        RowContainer2 / >
+        <
+        Title2 / >
+        <
+        Title3 / >
+        <
+        Title4 / >
+        <
+        Title5 / >
+        <
+        Button / >
+        <
+        /form>
+
+        <
+        /div>
+    );
 }
 
 export default App;
