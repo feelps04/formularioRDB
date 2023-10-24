@@ -12,7 +12,7 @@
 
 .logo-left2 {
     position: relative;
-    left: 6px;
+    left: 16px;
     width: 85px;
     height: 85px;
     background-size: cover;
@@ -35,7 +35,7 @@
     /*  'cast-cor-V1.png'  */
     transition: left 0.2s ease-in-out;
     /* Adicione uma transição suave */
-    right: 6px
+    right: 16px
 }
 
 .title {
