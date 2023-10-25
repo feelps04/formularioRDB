@@ -1,5 +1,5 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
+// Este é o seu arquivo de esquema Prisma
+// Saiba mais sobre isso na documentação: https://pris.ly/d/prisma-schema
 
 generator client {
   provider = "prisma-client-js"
@@ -8,4 +8,27 @@ generator client {
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
+}
+
+// Definindo o modelo para empresa
+model RowContainer1 {
+  id          Int      @id @default(autoincrement())
+  nome        String
+  cnpj        String
+  email       String
+  fone        String
+  solicitante String
+}
+
+model RowContainer2 {
+  id                   Int      @id @default(autoincrement())
+  titulo_contratacao   String?
+  modalidade_contratacao String?
+  periodo_contratacao  String?
+  posicao              String?
+  horario_trabalho     String?
+  prioridade_contratacao String?
+  senioridade          String?
+  regime_trabalho      String?
+  budget_maximo        String?
 }
